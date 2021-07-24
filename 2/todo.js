@@ -7,8 +7,7 @@ function add(a)
 }
 function del(a)
 {
-    let data=prompt('Enter the record to be deleted')
-    if(a.pop(data))
+    if(a.pop())
         alert('Element deleted')
     else
         alert('No Element to delete')
