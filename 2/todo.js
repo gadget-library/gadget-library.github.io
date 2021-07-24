@@ -16,7 +16,7 @@ function see(a)
 {
     alert(`The elements in the array are\n`+a.join('\n'))
 }
-alert('This program will be a todo list\nYou can choose any of the following options\n1.Add\n2.Delete\n3.View')
+alert('This program will be a todo list\nYou can choose any of the following options\n1.Add\n2.Delete\n3.View\n4.Exit')
 let opt
 let a=[]
 while(opt!=4)
